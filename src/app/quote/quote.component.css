@@ -1,0 +1,35 @@
+.del{
+    color:red;
+    float:right; 
+  }
+  .upvote{
+    color:rgb(226, 142, 31);
+    
+  }
+  .downvote{
+    color:rgb(226, 142, 31);
+    
+  }
+  .card{
+    margin: 20px;
+    text-align: center;
+    width: 400px;
+  }
+  .card-header{
+    background-color: aquamarine;
+  }
+  h6{
+    float: right;
+  }
+  .card-footer{
+    background-color: rgb(226, 222, 222);
+  }
+  
+  .action{
+    text-align: center;
+    font-size: 20px;
+    align-items: center;
+  }
+  .container-fluid{
+    background-color: aquamarine;
+  }

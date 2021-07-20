@@ -1,27 +1,37 @@
-# Qoutes
+# Quotes by Angular
+#### First Independent project for Moringa Core , 20th July 2021
+#### By **Nyamweya Kepha**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
+## Description
+The Quotes by Angular is simply a webpage that allows users to enter quotes,the author of the quote, and his/her name as the user and the quote is displayed in a card.
 
-## Development server
+Once the user submits the quotes, the quote appears on the `QUOTES` Section in the webpage.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+There is a red trash icon in the card which when clicked, deletes the entire quote from the page
 
-## Code scaffolding
+A user can like or dislike a quote by clicking on either the upvote or downvote icons.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Specifications
+| Behavior      | Input         | Output|
+| ------------- |:-------------:| -----:|
+| Displaying Quote | Name, Author & Quote | Displays Quote, name of the author and user's name  |
+| Number of likes    |  Press thumbs-up or thumbs-down button     | Increases or decreases number of likes |
+| New Quote | Fill in the form to add a new quote     |  The new quote is displayed on the page |
 
-## Build
+## Preview
+Click **[here](https://kephanyamweya.github.io/Quotes)** to see the live site.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Known Bugs
+There are no known bugs so far. If found, email me at nyamweyakepha@gmail.com
 
-## Running unit tests
+## Technologies Used
+    1. HTML
+    2. CSS
+    3. Bootstrap
+    4. Angular JS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Support and contact details
+Contact me on nyamweyakepha@gmail.com for any comments, reviews or advice.
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### License
+Copyright (c) **Nyamweya Kepha**
