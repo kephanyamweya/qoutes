@@ -9,7 +9,7 @@
       <div class="card-body">
         <p>Posted by:{{quote.submitter}}</p>
         <span (click)="delete(i) " class="del">
-          <i class="fa fa-trash"></i>
+          <button class="btn btn-danger">Delete<i class="fa fa-trash"></i></button>
         </span>
       </div>
 
@@ -19,11 +19,11 @@
               {{quote.upvotes}}
           </div>
           <div class="col-3 action upvote" (click)="quote.upvotes = quote.upvotes + 1">
-            <i class="fa fa-thumbs-up"></i>
+            <button class="btn btn-warning"><i class="fa fa-thumbs-up"></i>like</button>
           </div>
 
           <div class="col-3 action downvote" (click)="quote.downvotes = quote.downvotes + 1">
-            <i class="fa fa-thumbs-down"></i>
+            <button class="btn btn-danger"><i class="fa fa-thumbs-down"></i>Unlike</button>
           </div>
           <div class="col-3 action">
               {{quote.downvotes}}
